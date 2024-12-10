@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>ex31</title>
+<style>
+#main{l
+width:240px;
+background:#000;
+color:#fff;
+padding:25px;
+border-radius:20px;
+margin:auto;
+box-shadow:0 0 10px blue;
+}
+#main:hover{
+background:hotpink;
+color:blue;}
+button{
+width:180px;
+height:34px;
+bachground:#oof;
+color:#fff;
+font-size:22px;
+border-radius:5px;
+border:none;
+cursor:pointer;
+}
+button:hover{
+border-radius:15px;}
+</style>
+</head>
+<body>
+<div id="main">
+<form id="frm" action="registration.html">
+<div align="center">
+<h1>Registration form</h1>
+</div><div>
+<label for ="fna" >full name</label>
+<span>*</span><br>
+<input type="text" id="fna" name="fna" required autofocus>
+</div><br>
+<div>
+<label for="phone">contact number</label>
+<span>*</span><br>
+<input type="text" id="phone" name="phone" required maxlength="10">
+</div><br>
+<div>
+<label for="em">email id</label>
+<span>*</span><br>
+<input type="text" id="em" name="em" required>
+</div><br>
+<div>
+<lable for="dob">date of birth</label>
+<span>*</span><br>
+<input type="date"id="dob" name="dob">
+</div>
+<br>
+<div>
+<label>gender</label><br>
+<input type="radio" id="gen1" name="gen" value="m">
+<label>male</label> &nbsp;
+<input type="radio" id="gen2" name="gen" value="f">
+<label>female</label> &nbsp;
+<input type="radio" id="gen3" name="gen" value="o">
+<label>others</label> 
+</div><br>
+<div>
+<label for="course">which course?</label><br>
+<select>
+<option>c programe</option>
+<option>cpp programe</option>
+<option>java programe</option>
+<option>python programe</option>
+<option>dot net programe</option></select>
+</div><br>
+<div>
+<label for="mot">mode of training</label>
+<br>
+<select>
+<option>classroom training</option>
+<option>online training</option>
+<option>placement training</option>
+<option>project training</option>
+<option>internship</option>
+<option>just listen</option>
+</select>
+</div><br>
+<div>
+<input type="checkbox" id="tc" name="tc"required value="true">
+<label>I accepted all terms and conditions</label>
+</div><br>
+<div align="center">
+<h3>Register now</h3>
+</div>
+</form>
+</body>
+</html>
